@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaders Mouse move</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="text-container"></div>
+    <div class="text-container w-full h-screen bg-zinc-900 p-10">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.168.0/three.module.min.js" integrity="sha512-OiCynVI1k8dApoPcN2adQfUFQBzuyyajjXNOT63ydHq4jvpMDEvmFPB3KuCNSzGYPkFpCslEflM0NpOby3s92Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <div id="box" class=" w-52 h-52 bg-blue-400 rounded-lg"></div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>
