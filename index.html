@@ -5,21 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaders Mouse move</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page1 text-container w-full h-screen bg-zinc-900 p-10 flex justify-center items-center">
-        <div id="box" class=" w-52 h-52 bg-blue-400 rounded-lg"></div>
-    </div>
-    <div class="page2 text-container w-full h-screen bg-zinc-900 p-10 flex justify-center items-center">
-        <div id="box" class=" w-52 h-52 bg-blue-400 rounded-lg"></div>
-    </div>
-    <div class="page text-container w-full h-screen bg-zinc-900 p-10 flex justify-center items-center">
-        <div id="box" class=" w-52 h-52 bg-blue-400 rounded-lg"></div>
-    </div>
+    <div class="main bg-zinc-900">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <div id="section1" class="section w-full h-screen bg-zinc-900 text-slate-200 flex justify-center items-center flex-col p-20" data-scroll>
+        <h2 class="text-3xl mb-10 underline">Section 1: Introduction</h2>
+        <p class="text-lg text-center m-3">Welcome to our webpage! In this first section, we aim to introduce the purpose of this page and what you can expect to find. This page is designed to provide valuable insights on <strong>web development techniques</strong> and <em>best practices</em>.</p>
+        <p class="text-lg text-center m-3">Whether you're a beginner looking to start or an experienced developer seeking to refine your skills, our content is structured to cater to all levels.</p>
+        <ul>
+            <li>Overview of HTML, CSS, and JavaScript</li>
+            <li>Importance of responsive design</li>
+            <li>How to structure a webpage effectively</li>
+        </ul>
+    </div>
+    
+    <div id="section2" class="section w-full h-screen bg-zinc-900 text-slate-200 flex justify-center items-center flex-col p-20" data-scroll>
+        <h2 class="text-3xl mb-10 underline">Section 2: Main Content</h2>
+        <p class="text-lg text-center m-3">In this section, we'll explore the core concepts of <strong>web development</strong>. We cover various aspects including:</p>
+        <h3>1. HTML &amp; CSS Basics</h3>
+        <p>HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) form the backbone of any webpage. While HTML provides structure, CSS is responsible for styling and layout.</p>
+        <h3>2. JavaScript for Interactivity</h3>
+        <p>JavaScript allows developers to create dynamic and interactive elements on webpages. From form validations to real-time content updates, JavaScript opens up a world of possibilities.</p>
+        <h3>3. Responsive Design</h3>
+        <p class="text-lg text-center m-3">Responsive design ensures your webpage looks great on any device, be it a mobile, tablet, or desktop. This involves using flexible layouts, media queries, and responsive images.</p>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+    
+    <div id="section3" class="section w-full h-screen bg-zinc-900 text-slate-200 flex justify-center items-center flex-col p-20" data-scroll>
+        <h2 class="text-3xl mb-10 underline">Section 3: Conclusion</h2>
+        <p class="text-lg text-center m-3">As we wrap up, let's quickly summarize the key takeaways:</p>
+        <ol>
+            <li>Understanding the basic building blocks: HTML, CSS, and JavaScript</li>
+            <li>The importance of creating user-friendly and responsive designs</li>
+            <li>Utilizing interactivity to enhance user engagement</li>
+        </ol>
+        <p class="text-lg text-center m-3">If you're ready to dive deeper, explore our detailed guides, tutorials, and resources linked throughout this page. Feel free to reach out if you have any questions or need support.</p>
+        <p><a href="contact.html" class="btn">Contact Us</a></p>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
