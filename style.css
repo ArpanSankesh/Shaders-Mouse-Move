@@ -16,36 +16,13 @@ html, body {
 .swiper{
     height: 100%;
     width: 100%;
-    /* background-color: #000; */
+    background-color: #000;
     padding: 30px;
 }
-
-
-
 .swiper-slide{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 5rem;
-    background-color: #333;
-}
-
-.next{
-    position: absolute;
-    top: 50%;
-    right: 3%;
-    z-index: 1;
-    padding: 3px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.prev{
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 3%;
-    z-index: 1;
-    padding: 3px;
-    border-radius: 5px;
+    background-color: #fff;
 }
