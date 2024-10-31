@@ -28,14 +28,12 @@ html, body {
     justify-content: center;
     font-size: 5rem;
     background-color: #333;
-    margin: 10px;
 }
 
 .next{
     position: absolute;
     top: 50%;
     right: 3%;
-    background-color: crimson;
     z-index: 1;
     padding: 3px;
     border-radius: 5px;
@@ -46,8 +44,7 @@ html, body {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 6%;
-    background-color: crimson;
+    left: 3%;
     z-index: 1;
     padding: 3px;
     border-radius: 5px;
